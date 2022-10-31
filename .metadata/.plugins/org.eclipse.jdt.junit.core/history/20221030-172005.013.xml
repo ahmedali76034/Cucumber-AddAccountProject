@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner (1)" project="NewAccount" tests="1" started="0" failures="0" errors="0" ignored="0">
+  <testsuite name="runners.Runner" incomplete="true">
+    <testsuite name="Feature: Techfios bank and cash New Account Functionality" incomplete="true">
+      <testcase name="Scenario Outline: User should be able to login with valid credentials and open a new account" classname="Scenario Outline: User should be able to login with valid credentials and open a new account" incomplete="true"/>
+    </testsuite>
+  </testsuite>
+</testrun>

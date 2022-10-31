@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner (1)" project="NewAccount" tests="6" started="6" failures="0" errors="2" ignored="0">
+  <testsuite name="runners.Runner" time="0.964">
+    <testsuite name="Feature: Techfios bank and cash New Account Functionality" time="0.964">
+      <testsuite name="Scenario: User should be able to login with valid credentials and open a new account" time="0.964" incomplete="true">
+        <error>java.lang.NullPointerException&#13;
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)&#13;
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)&#13;
+	at com.sun.proxy.$Proxy17.click(Unknown Source)&#13;
+	at pages.TfDashboard.clickBankandCash(TfDashboard.java:23)&#13;
+	at steps.DashboadPageStepDefinations.user_clicks_on_bank_and_cash(DashboadPageStepDefinations.java:22)&#13;
+	at ✽.And User clicks on bank and cash(src/test/java/features/TechFiosNewAccounut.feature:9)&#13;
+&#13;
+</error>
+        <testcase name="Given User is on the techfios login page" classname="Scenario: User should be able to login with valid credentials and open a new account" time="0.112"/>
+        <testcase name="When User enters username as &quot;demo@techfios.com&quot;" classname="Scenario: User should be able to login with valid credentials and open a new account" time="0.1"/>
+        <testcase name="When User enters password as &quot;abc123&quot;" classname="Scenario: User should be able to login with valid credentials and open a new account" time="0.741"/>
+        <testcase name="And User clicks on signin Button" classname="Scenario: User should be able to login with valid credentials and open a new account" time="0.007"/>
+        <testcase name="Then User should land on Dashboard page" classname="Scenario: User should be able to login with valid credentials and open a new account" time="0.001"/>
+        <testcase name="And User clicks on bank and cash" classname="Scenario: User should be able to login with valid credentials and open a new account" time="0.003">
+          <error>java.lang.NullPointerException&#13;
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)&#13;
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)&#13;
+	at com.sun.proxy.$Proxy17.click(Unknown Source)&#13;
+	at pages.TfDashboard.clickBankandCash(TfDashboard.java:23)&#13;
+	at steps.DashboadPageStepDefinations.user_clicks_on_bank_and_cash(DashboadPageStepDefinations.java:22)&#13;
+	at ✽.And User clicks on bank and cash(src/test/java/features/TechFiosNewAccounut.feature:9)&#13;
+&#13;
+</error>
+        </testcase>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

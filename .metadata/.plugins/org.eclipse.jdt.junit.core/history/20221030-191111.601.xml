@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner (1)" project="NewAccount" tests="8" started="8" failures="0" errors="0" ignored="1">
+  <testsuite name="runners.Runner" time="1.645">
+    <testsuite name="Feature: Techfios bank and cash New Account Functionality" time="1.645">
+      <testsuite name="Scenario: User should be able to login with valid credentials and open a new account" time="1.645" incomplete="true">
+        <skipped/>
+        <testcase name="Given User is on the techfios login page" classname="Scenario: User should be able to login with valid credentials and open a new account" time="0.15"/>
+        <testcase name="When User enters username as &quot;demo@techfios.com&quot;" classname="Scenario: User should be able to login with valid credentials and open a new account" time="0.083"/>
+        <testcase name="When User enters password as &quot;abc123&quot;" classname="Scenario: User should be able to login with valid credentials and open a new account" time="0.812"/>
+        <testcase name="And User clicks on signin Button" classname="Scenario: User should be able to login with valid credentials and open a new account" time="0.008"/>
+        <testcase name="Then User should land on Dashboard page" classname="Scenario: User should be able to login with valid credentials and open a new account" time="0.094"/>
+        <testcase name="And User clicks on bank and cash" classname="Scenario: User should be able to login with valid credentials and open a new account" time="0.493"/>
+        <testcase name="And User clicks on New Account" classname="Scenario: User should be able to login with valid credentials and open a new account" time="0.004"/>
+        <testcase name="And User enters Account Title in accounts page as &quot;Saving&quot;" classname="Scenario: User should be able to login with valid credentials and open a new account" time="0.001" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

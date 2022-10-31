@@ -1,0 +1,19 @@
+package steps;
+
+import org.openqa.selenium.WebDriver;
+
+import pages.TestBase;
+
+public class DashboadPageStepDefinations extends TestBase{
+
+	WebDriver driver;
+
+	public DashboadPageStepDefinations(WebDriver driver) {
+		this.driver = driver;
+
+	}
+	
+	@And ("^And User clicks on \"<bankCash>\"&")
+	
+	
+}

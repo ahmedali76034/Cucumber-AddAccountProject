@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="Cucumber" tests="10" started="10" failures="0" errors="0" ignored="0">
+  <testsuite name="runners.Runner" time="5.493">
+    <testsuite name="Feature: TechFios billing OTHER login funtionality validation" time="1.817">
+      <testsuite name="Scenario: User should be aboe to OTHER login with valid credentials" time="1.817">
+        <testcase name="Given User is on the techfios login page" classname="Scenario: User should be aboe to OTHER login with valid credentials" time="0.108"/>
+        <testcase name="When User enters password as &quot;abc123&quot;" classname="Scenario: User should be aboe to OTHER login with valid credentials" time="0.099"/>
+        <testcase name="When User enters username as &quot;demo@techfios.com&quot;" classname="Scenario: User should be aboe to OTHER login with valid credentials" time="0.852"/>
+        <testcase name="And User clicks on signin button" classname="Scenario: User should be aboe to OTHER login with valid credentials" time="0.01"/>
+        <testcase name="Then User should land on Dashboard page" classname="Scenario: User should be aboe to OTHER login with valid credentials" time="0.748"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Feature: TechFios billing login funtionality validation" time="1.753">
+      <testsuite name="Scenario: User should be aboe to login with valid credentials" time="1.753">
+        <testcase name="Given User is on the techfios login page" classname="Scenario: User should be aboe to login with valid credentials" time="0.146"/>
+        <testcase name="When User enters password as &quot;abc123&quot;" classname="Scenario: User should be aboe to login with valid credentials" time="0.133"/>
+        <testcase name="When User enters username as &quot;demo@techfios.com&quot;" classname="Scenario: User should be aboe to login with valid credentials" time="0.803"/>
+        <testcase name="And User clicks on signin button" classname="Scenario: User should be aboe to login with valid credentials" time="0.011"/>
+        <testcase name="Then User should land on Dashboard page" classname="Scenario: User should be aboe to login with valid credentials" time="0.66"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

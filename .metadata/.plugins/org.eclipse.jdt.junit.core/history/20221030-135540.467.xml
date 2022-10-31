@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="Cucumber" tests="20" started="20" failures="6" errors="0" ignored="0">
+  <testsuite name="runners.Runner" time="27.623">
+    <testsuite name="Feature: TechFios billing login funtionality validation" time="27.623">
+      <testsuite name="Scenario Outline: User should be aboe to login with valid credentials" time="27.623">
+        <testsuite name="Examples:" time="27.623">
+          <testsuite name="| demo@techfios.com | abc123 |" time="1.717">
+            <testcase name="Given User is on the techfios login page" classname="| demo@techfios.com | abc123 |" time="0.128"/>
+            <testcase name="When User enters username as &quot;demo@techfios.com&quot;" classname="| demo@techfios.com | abc123 |" time="0.086"/>
+            <testcase name="When User enters password as &quot;abc123&quot;" classname="| demo@techfios.com | abc123 |" time="0.859"/>
+            <testcase name="And User clicks on signin button" classname="| demo@techfios.com | abc123 |" time="0.007"/>
+            <testcase name="Then User should land on Dashboard page" classname="| demo@techfios.com | abc123 |" time="0.637"/>
+          </testsuite>
+          <testsuite name="| demo2@techfios.com | abc123 |" time="0.809" incomplete="true">
+            <failure>
+              <expected>Dashboard- iBilling</expected>
+              <actual>Login - iBilling</actual>junit.framework.ComparisonFailure: expected:&lt;[Dashboard]- iBilling&gt; but was:&lt;[Login ]- iBilling&gt;&#13;
+	at junit.framework.Assert.assertEquals(Assert.java:100)&#13;
+	at junit.framework.Assert.assertEquals(Assert.java:107)&#13;
+	at steps.LoginStepDefinations.user_should_land_on_Dashboard_page(LoginStepDefinations.java:53)&#13;
+	at ✽.Then User should land on Dashboard page(features/TechFiosLoginOutline.feature:11)&#13;
+&#13;
+</failure>
+            <testcase name="Given User is on the techfios login page" classname="| demo2@techfios.com | abc123 |" time="0.152"/>
+            <testcase name="When User enters username as &quot;demo2@techfios.com&quot;" classname="| demo2@techfios.com | abc123 |" time="0.099"/>
+            <testcase name="When User enters password as &quot;abc123&quot;" classname="| demo2@techfios.com | abc123 |" time="0.546"/>
+            <testcase name="And User clicks on signin button" classname="| demo2@techfios.com | abc123 |" time="0.008"/>
+            <testcase name="Then User should land on Dashboard page" classname="| demo2@techfios.com | abc123 |" time="0.004">
+              <failure>
+                <expected>Dashboard- iBilling</expected>
+                <actual>Login - iBilling</actual>junit.framework.ComparisonFailure: expected:&lt;[Dashboard]- iBilling&gt; but was:&lt;[Login ]- iBilling&gt;&#13;
+	at junit.framework.Assert.assertEquals(Assert.java:100)&#13;
+	at junit.framework.Assert.assertEquals(Assert.java:107)&#13;
+	at steps.LoginStepDefinations.user_should_land_on_Dashboard_page(LoginStepDefinations.java:53)&#13;
+	at ✽.Then User should land on Dashboard page(features/TechFiosLoginOutline.feature:11)&#13;
+&#13;
+</failure>
+            </testcase>
+          </testsuite>
+          <testsuite name="| demo@techfios.com | abc124 |" time="0.778" incomplete="true">
+            <failure>
+              <expected>Dashboard- iBilling</expected>
+              <actual>Login - iBilling</actual>junit.framework.ComparisonFailure: expected:&lt;[Dashboard]- iBilling&gt; but was:&lt;[Login ]- iBilling&gt;&#13;
+	at junit.framework.Assert.assertEquals(Assert.java:100)&#13;
+	at junit.framework.Assert.assertEquals(Assert.java:107)&#13;
+	at steps.LoginStepDefinations.user_should_land_on_Dashboard_page(LoginStepDefinations.java:53)&#13;
+	at ✽.Then User should land on Dashboard page(features/TechFiosLoginOutline.feature:11)&#13;
+&#13;
+</failure>
+            <testcase name="Given User is on the techfios login page" classname="| demo@techfios.com | abc124 |" time="0.127"/>
+            <testcase name="When User enters username as &quot;demo@techfios.com&quot;" classname="| demo@techfios.com | abc124 |" time="0.093"/>
+            <testcase name="When User enters password as &quot;abc124&quot;" classname="| demo@techfios.com | abc124 |" time="0.549"/>
+            <testcase name="And User clicks on signin button" classname="| demo@techfios.com | abc124 |" time="0.009"/>
+            <testcase name="Then User should land on Dashboard page" classname="| demo@techfios.com | abc124 |" time="0.0">
+              <failure>
+                <expected>Dashboard- iBilling</expected>
+                <actual>Login - iBilling</actual>junit.framework.ComparisonFailure: expected:&lt;[Dashboard]- iBilling&gt; but was:&lt;[Login ]- iBilling&gt;&#13;
+	at junit.framework.Assert.assertEquals(Assert.java:100)&#13;
+	at junit.framework.Assert.assertEquals(Assert.java:107)&#13;
+	at steps.LoginStepDefinations.user_should_land_on_Dashboard_page(LoginStepDefinations.java:53)&#13;
+	at ✽.Then User should land on Dashboard page(features/TechFiosLoginOutline.feature:11)&#13;
+&#13;
+</failure>
+            </testcase>
+          </testsuite>
+          <testsuite name="|  |  |" time="0.687" incomplete="true">
+            <failure>
+              <expected>Dashboard- iBilling</expected>
+              <actual>Login - iBilling</actual>junit.framework.ComparisonFailure: expected:&lt;[Dashboard]- iBilling&gt; but was:&lt;[Login ]- iBilling&gt;&#13;
+	at junit.framework.Assert.assertEquals(Assert.java:100)&#13;
+	at junit.framework.Assert.assertEquals(Assert.java:107)&#13;
+	at steps.LoginStepDefinations.user_should_land_on_Dashboard_page(LoginStepDefinations.java:53)&#13;
+	at ✽.Then User should land on Dashboard page(features/TechFiosLoginOutline.feature:11)&#13;
+&#13;
+</failure>
+            <testcase name="Given User is on the techfios login page" classname="|  |  |" time="0.08"/>
+            <testcase name="When User enters username as &quot;&quot;" classname="|  |  |" time="0.081"/>
+            <testcase name="When User enters password as &quot;&quot;" classname="|  |  |" time="0.518"/>
+            <testcase name="And User clicks on signin button" classname="|  |  |" time="0.007"/>
+            <testcase name="Then User should land on Dashboard page" classname="|  |  |" time="0.0">
+              <failure>
+                <expected>Dashboard- iBilling</expected>
+                <actual>Login - iBilling</actual>junit.framework.ComparisonFailure: expected:&lt;[Dashboard]- iBilling&gt; but was:&lt;[Login ]- iBilling&gt;&#13;
+	at junit.framework.Assert.assertEquals(Assert.java:100)&#13;
+	at junit.framework.Assert.assertEquals(Assert.java:107)&#13;
+	at steps.LoginStepDefinations.user_should_land_on_Dashboard_page(LoginStepDefinations.java:53)&#13;
+	at ✽.Then User should land on Dashboard page(features/TechFiosLoginOutline.feature:11)&#13;
+&#13;
+</failure>
+            </testcase>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

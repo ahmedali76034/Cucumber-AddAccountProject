@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner (1)" project="NewAccount" tests="16" started="16" failures="2" errors="0" ignored="11">
+  <testsuite name="runners.Runner" time="5.136">
+    <testsuite name="Feature: Techfios bank and cash New Account Functionality" time="5.136">
+      <testsuite name="Scenario Outline: User should be able to login with valid credentials and open a new account" time="5.136">
+        <testsuite name="Examples:" time="5.136">
+          <testsuite name="| demo@techfios.com | abc123 | checking | This is created by AHMED ALI | 200 | 323 | Ahmed Ali | 8178814 | https://www.BOFA.com/ |" time="1.409" incomplete="true">
+            <failure>
+              <expected>Dashboard- iBilling</expected>
+              <actual>Login - iBilling</actual>junit.framework.ComparisonFailure: expected:&lt;[Dashboard]- iBilling&gt; but was:&lt;[Login ]- iBilling&gt;&#13;
+	at junit.framework.Assert.assertEquals(Assert.java:100)&#13;
+	at junit.framework.Assert.assertEquals(Assert.java:107)&#13;
+	at steps.NewAccountStepDefinations.user_should_land_on_Dashboard_page(NewAccountStepDefinations.java:59)&#13;
+	at ✽.Then User should land on Dashboard page(features/TechFiosNewAccounut.feature:9)&#13;
+&#13;
+</failure>
+            <testcase name="Given User is on the techfios login page" classname="| demo@techfios.com | abc123 | checking | This is created by AHMED ALI | 200 | 323 | Ahmed Ali | 8178814 | https://www.BOFA.com/ |" time="0.131"/>
+            <testcase name="When User enters username as &quot;&lt;username&gt;&quot;" classname="| demo@techfios.com | abc123 | checking | This is created by AHMED ALI | 200 | 323 | Ahmed Ali | 8178814 | https://www.BOFA.com/ |" time="0.13"/>
+            <testcase name="When User enters password as &quot;&lt;password&gt;&quot;" classname="| demo@techfios.com | abc123 | checking | This is created by AHMED ALI | 200 | 323 | Ahmed Ali | 8178814 | https://www.BOFA.com/ |" time="1.132"/>
+            <testcase name="And User clicks on signin Button" classname="| demo@techfios.com | abc123 | checking | This is created by AHMED ALI | 200 | 323 | Ahmed Ali | 8178814 | https://www.BOFA.com/ |" time="0.012"/>
+            <testcase name="Then User should land on Dashboard page" classname="| demo@techfios.com | abc123 | checking | This is created by AHMED ALI | 200 | 323 | Ahmed Ali | 8178814 | https://www.BOFA.com/ |" time="0.004">
+              <failure>
+                <expected>Dashboard- iBilling</expected>
+                <actual>Login - iBilling</actual>junit.framework.ComparisonFailure: expected:&lt;[Dashboard]- iBilling&gt; but was:&lt;[Login ]- iBilling&gt;&#13;
+	at junit.framework.Assert.assertEquals(Assert.java:100)&#13;
+	at junit.framework.Assert.assertEquals(Assert.java:107)&#13;
+	at steps.NewAccountStepDefinations.user_should_land_on_Dashboard_page(NewAccountStepDefinations.java:59)&#13;
+	at ✽.Then User should land on Dashboard page(features/TechFiosNewAccounut.feature:9)&#13;
+&#13;
+</failure>
+            </testcase>
+            <testcase name="And User clicks on bank and cash" classname="| demo@techfios.com | abc123 | checking | This is created by AHMED ALI | 200 | 323 | Ahmed Ali | 8178814 | https://www.BOFA.com/ |" time="0.001" ignored="true"/>
+            <testcase name="And User clicks on New Account" classname="| demo@techfios.com | abc123 | checking | This is created by AHMED ALI | 200 | 323 | Ahmed Ali | 8178814 | https://www.BOFA.com/ |" time="0.0" ignored="true"/>
+            <testcase name="And User enters Account Title in accounts page as &quot;checking&quot;" classname="| demo@techfios.com | abc123 | checking | This is created by AHMED ALI | 200 | 323 | Ahmed Ali | 8178814 | https://www.BOFA.com/ |" time="0.001" ignored="true"/>
+            <testcase name="And User enters accounts description as &quot;This is created by AHMED ALI&quot; in accounts page" classname="| demo@techfios.com | abc123 | checking | This is created by AHMED ALI | 200 | 323 | Ahmed Ali | 8178814 | https://www.BOFA.com/ |" time="0.0" ignored="true"/>
+            <testcase name="And User enters account inital balance as &quot;200&quot; in accounts page" classname="| demo@techfios.com | abc123 | checking | This is created by AHMED ALI | 200 | 323 | Ahmed Ali | 8178814 | https://www.BOFA.com/ |" time="0.001" ignored="true"/>
+            <testcase name="And User enters account number as &quot;323&quot; in accounts page" classname="| demo@techfios.com | abc123 | checking | This is created by AHMED ALI | 200 | 323 | Ahmed Ali | 8178814 | https://www.BOFA.com/ |" time="0.0" ignored="true"/>
+            <testcase name="And User enters contact person as &quot;Ahmed Ali&quot; in accounts page" classname="| demo@techfios.com | abc123 | checking | This is created by AHMED ALI | 200 | 323 | Ahmed Ali | 8178814 | https://www.BOFA.com/ |" time="0.001" ignored="true"/>
+            <testcase name="And User enters phone number as &quot;8178814&quot; in accounts page" classname="| demo@techfios.com | abc123 | checking | This is created by AHMED ALI | 200 | 323 | Ahmed Ali | 8178814 | https://www.BOFA.com/ |" time="0.0" ignored="true"/>
+            <testcase name="And User enters Internet Banking URL as &quot;https://www.BOFA.com/&quot; in accounts page" classname="| demo@techfios.com | abc123 | checking | This is created by AHMED ALI | 200 | 323 | Ahmed Ali | 8178814 | https://www.BOFA.com/ |" time="0.0" ignored="true"/>
+            <testcase name="And User clicks on submit" classname="| demo@techfios.com | abc123 | checking | This is created by AHMED ALI | 200 | 323 | Ahmed Ali | 8178814 | https://www.BOFA.com/ |" time="0.001" ignored="true"/>
+            <testcase name="Then User should be able to validate account created successfully" classname="| demo@techfios.com | abc123 | checking | This is created by AHMED ALI | 200 | 323 | Ahmed Ali | 8178814 | https://www.BOFA.com/ |" time="3.72" ignored="true"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

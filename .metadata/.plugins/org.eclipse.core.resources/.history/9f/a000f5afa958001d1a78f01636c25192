@@ -1,0 +1,24 @@
+package steps;
+
+import org.openqa.selenium.support.PageFactory;
+
+import cucumber.api.java.Before;
+import cucumber.api.java.en.And;
+import pages.TestBase;
+import pages.TfDashboard;
+
+public class DashboadPageStepDefinations extends TestBase {
+
+	TfDashboard tfDashboard;
+
+	@Before
+	public void setUp() {
+
+		tfDashboard = PageFactory.initElements(driver, TfDashboard.class);
+	}
+
+	@And("^User clicks on bank and cash$")
+	public void user_clicks_on_bank_and_cash() {
+		tfDashboard.clickBankandCash();
+	}
+}

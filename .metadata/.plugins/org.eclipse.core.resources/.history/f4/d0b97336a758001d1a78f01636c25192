@@ -1,0 +1,13 @@
+package steps;
+
+import org.openqa.selenium.WebDriver;
+
+public class DashboadPageStepDefinations {
+
+	WebDriver driver;
+
+	public DashboadPageStepDefinations(WebDriver driver) {
+		this.driver = driver;
+
+	}
+}

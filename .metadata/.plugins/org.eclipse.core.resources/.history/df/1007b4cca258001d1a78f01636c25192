@@ -1,0 +1,20 @@
+package steps;
+
+import cucumber.api.java.Before;
+import cucumber.api.java.en.Given;
+import pages.TestBase;
+
+public class NewAccountStepDefinations extends TestBase {
+
+	@Before
+	public void setUp() {
+		initWebDriver();
+	}
+
+	@Given("^User is on the techfios login page$")
+	public void user_is_on_the_techfios_login_page() {
+
+		driver.get("https://www.techfios.com/billing/?ng=admin/");
+	}
+
+}

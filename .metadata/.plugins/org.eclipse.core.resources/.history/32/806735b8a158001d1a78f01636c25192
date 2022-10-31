@@ -1,0 +1,15 @@
+package pages;
+
+import org.openqa.selenium.WebDriver;
+
+public class TfLoginPage {
+
+	WebDriver driver;
+
+	public TfLoginPage(WebDriver driver) {
+
+		this.driver = driver;
+
+	}
+
+}

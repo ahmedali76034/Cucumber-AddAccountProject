@@ -1,0 +1,12 @@
+package steps;
+
+import cucumber.api.java.en.And;
+import pages.TestBase;
+
+public class DashboadPageStepDefinations extends TestBase {
+
+	@And("^User clicks on bank and cash$")
+	public void user_clicks_on_bank_and_cash() {
+
+	}
+}

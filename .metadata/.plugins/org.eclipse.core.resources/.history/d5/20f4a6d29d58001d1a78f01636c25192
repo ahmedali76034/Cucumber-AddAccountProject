@@ -1,0 +1,10 @@
+package steps;
+
+public class NewAccountStepDefinations {
+
+	@Given ("^User is on the techfios login page$")
+	public void user_is_on_the_techfios_login_page() {
+		
+	}
+	
+}

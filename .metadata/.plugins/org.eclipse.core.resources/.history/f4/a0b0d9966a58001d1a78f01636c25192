@@ -1,0 +1,41 @@
+package steps;
+
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+import pages.TestBase;
+
+public class LoginStepDefinations extends TestBase {
+
+	@Given("^User is on the techfios login page$")
+	public void user_is_on_the_techfios_login_page() {
+		initDriver();
+		
+		
+
+	}
+
+	@When("^User enters username as \"([^\"]*)\"$")
+	public void user_enters_username_as(String username) {
+
+	}
+	
+	
+	@When("^User enters password as \"([^\"]*)\"$")
+	public void user_enters_password_as(String password)  {
+	   
+	}
+
+	@When("^User clicks on signin button$")
+	public void user_clicks_on_signin_button() {
+	   
+	}
+
+	@Then("^User should land on Dashboard page$")
+	public void user_should_land_on_Dashboard_page()  {
+	   
+	}
+
+
+}

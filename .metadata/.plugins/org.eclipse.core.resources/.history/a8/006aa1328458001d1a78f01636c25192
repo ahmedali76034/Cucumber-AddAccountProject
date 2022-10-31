@@ -1,0 +1,26 @@
+package runners;
+
+import org.junit.runner.RunWith;
+
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(
+		//features = "src\\test\\java\\features\\TechFiosLogin.feature", 
+		features = "classpath:features",
+		glue = "steps",
+//Add tags what ever you want to run
+		//tags = "@Scenario3,@OtherScenario1",
+		tags = "@Smoke",
+		monochrome = true,
+		dryRun = false,
+		plugin = {
+				"pretty",
+				"html:target/cucumber",
+				"json:target/cumcumber.json"			
+		}
+		)
+public class Runner {
+
+}

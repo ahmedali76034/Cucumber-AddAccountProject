@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner (1)" project="NewAccount" tests="16" started="16" failures="0" errors="0" ignored="0">
+  <testsuite name="runners.Runner" time="27.135">
+    <testsuite name="Feature: Techfios bank and cash New Account Functionality" time="27.135">
+      <testsuite name="Scenario: User should be able to login with valid credentials and open a new account" time="27.135">
+        <testcase name="Given User is on the techfios login page" classname="Scenario: User should be able to login with valid credentials and open a new account" time="0.161"/>
+        <testcase name="When User enters username as &quot;demo@techfios.com&quot;" classname="Scenario: User should be able to login with valid credentials and open a new account" time="0.109"/>
+        <testcase name="When User enters password as &quot;abc123&quot;" classname="Scenario: User should be able to login with valid credentials and open a new account" time="2.64"/>
+        <testcase name="And User clicks on signin Button" classname="Scenario: User should be able to login with valid credentials and open a new account" time="0.014"/>
+        <testcase name="Then User should land on Dashboard page" classname="Scenario: User should be able to login with valid credentials and open a new account" time="0.304"/>
+        <testcase name="And User clicks on bank and cash" classname="Scenario: User should be able to login with valid credentials and open a new account" time="0.463"/>
+        <testcase name="And User clicks on New Account" classname="Scenario: User should be able to login with valid credentials and open a new account" time="0.134"/>
+        <testcase name="And User enters Account Title in accounts page as &quot;Saving&quot;" classname="Scenario: User should be able to login with valid credentials and open a new account" time="0.178"/>
+        <testcase name="And User enters accounts description as &quot;This is created by AHMED ALI&quot; in accounts page" classname="Scenario: User should be able to login with valid credentials and open a new account" time="0.132"/>
+        <testcase name="And User enters account inital balance as &quot;100&quot; in accounts page" classname="Scenario: User should be able to login with valid credentials and open a new account" time="0.112"/>
+        <testcase name="And User enters account number as &quot;123&quot; in accounts page" classname="Scenario: User should be able to login with valid credentials and open a new account" time="0.124"/>
+        <testcase name="And User enters contact person as &quot;Ahmed Ali&quot; in accounts page" classname="Scenario: User should be able to login with valid credentials and open a new account" time="0.123"/>
+        <testcase name="And User enters phone number as &quot;8178814&quot; in accounts page" classname="Scenario: User should be able to login with valid credentials and open a new account" time="0.182"/>
+        <testcase name="And User enters Internet Banking URL as &quot;https://www.wellsfargo.com/&quot; in accounts page" classname="Scenario: User should be able to login with valid credentials and open a new account" time="5.591"/>
+        <testcase name="And User clicks on submit" classname="Scenario: User should be able to login with valid credentials and open a new account" time="0.009"/>
+        <testcase name="Then User should be able to validate account created successfully" classname="Scenario: User should be able to login with valid credentials and open a new account" time="16.859"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

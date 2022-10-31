@@ -1,0 +1,9 @@
+package pages;
+
+public class TfLoginPage {
+
+	public TfLoginPage() {
+		
+	}
+	
+}

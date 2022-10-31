@@ -1,0 +1,34 @@
+#these tag will take presidence over the @scenario 
+@Outline
+Feature: TechFios billing login funtionality validation
+
+@Scenario1
+Scenario Outline: User should be aboe to login with valid credentials
+Given User is on the techfios login page 
+When User enters username as "<username>"
+When User enters password as "<password>"
+And User clicks on signin button
+Then User should land on Dashboard page
+
+Examples:
+|username          |password|
+|demo@techfios.com |abc123  |
+|demo2@techfios.com|abc123 |
+|demo@techfios.com |abc124 |
+|								 	 | 				|
+
+#@Scenario2 @Smoke
+#Scenario: User should be aboe to login with INvalid credentials
+#Given User is on the techfios login page 
+#When User enters password as "abc123"
+#When User enters username as "demo2@techfios.com"
+#And User clicks on signin button
+#Then User should land on Dashboard page
+
+#@Scenario3
+#Scenario: User should be aboe to login with valid credentials
+#Given User is on the techfios login page 
+#When User enters password as "abc124"
+#When User enters username as "demo@techfios.com"
+#And User clicks on signin button
+#Then User should land on Dashboard page

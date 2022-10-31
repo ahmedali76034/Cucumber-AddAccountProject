@@ -1,0 +1,77 @@
+package steps;
+
+import org.openqa.selenium.support.PageFactory;
+
+import cucumber.api.java.Before;
+import cucumber.api.java.en.And;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+import junit.framework.Assert;
+import pages.TestBase;
+import pages.TfDashboard;
+import pages.TfLoginPage;
+import pages.TfNewAccountPage;
+
+public class NewAccountStepDefinations extends TestBase {
+
+	TfLoginPage tfLoginPage;
+	TfDashboard tfDashboard;
+	TfNewAccountPage tfNewAccountPage;
+	
+
+	@Before
+	public void setUp() {
+		initWebDriver();
+		tfLoginPage = PageFactory.initElements(driver, TfLoginPage.class);
+		tfDashboard = PageFactory.initElements(driver, TfDashboard.class);
+	}
+
+	@Given("^User is on the techfios login page$")
+	public void user_is_on_the_techfios_login_page() {
+
+		driver.get("https://www.techfios.com/billing/?ng=admin/");
+	}
+
+	@When("^User enters username as \"([^\"]*)\"$")
+	public void user_enters_the_username(String userName) {
+		tfLoginPage.enterUserName(userName);
+
+	}
+
+	@When("^User enters password as \"([^\"]*)\"$")
+	public void user_enters_the_password(String Password) {
+		tfLoginPage.enterPassword(Password);
+	}
+
+	@When("^User clicks on signin Button$")
+	public void user_clicks_on_signin_Button() {
+		tfLoginPage.clickSignInButton();
+
+	}
+
+	@Then("^User should land on Dashboard page$")
+	public void user_should_land_on_Dashboard_page() {
+		String expectedTitle = "Dashboard- iBilling";
+		String actualTitle = tfLoginPage.getPageTitle();
+		Assert.assertEquals(expectedTitle, actualTitle);
+
+	}
+	
+	@And("^User clicks on bank and cash$")
+	public void user_clicks_on_bank_and_cash() {
+		tfDashboard.clickBankandCash();
+	}
+	
+	@And ("^User clicks on New Account$")
+	public void user_clicks_on_New_Account() {
+		tfDashboard.clickNewAccount();
+	}
+	
+	@And ("^User enters Account Title in accounts page as \\\"([^\\\"]*)\\\" $")
+	public void user_enters_account_title_in_accounts_page () {
+		
+		tfNewAccountPage.enterAccountTitle(accountTile);
+	}
+
+}

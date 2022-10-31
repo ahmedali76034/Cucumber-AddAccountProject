@@ -1,0 +1,64 @@
+package pages;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
+
+public class TfNewAccountPage extends TestBase {
+
+	WebDriver driver;
+
+	public TfNewAccountPage(WebDriver driver) {
+		this.driver = driver;
+
+	}
+
+	// New Account page Elements
+	@FindBy(how = How.XPATH, using = "//*[@id=\"account\"]")
+	WebElement accountTitle;
+	@FindBy(how = How.XPATH, using = "//*[@id=\"description\"]")
+	WebElement accoutPageDescription;
+	@FindBy(how = How.XPATH, using = "//*[@id=\"balance\"]")
+	WebElement initalBalance;
+	@FindBy(how = How.XPATH, using = "//*[@id=\"account_number\"]")
+	WebElement account_number;
+	@FindBy(how = How.XPATH, using = "//*[@id=\"contact_person\"]")
+	WebElement contact_person;
+	@FindBy(how = How.XPATH, using = "//*[@id=\"contact_phone\"]")
+	WebElement contact_phone;
+	@FindBy(how = How.XPATH, using = "//*[@id=\"ib_url\"]")
+	WebElement url;
+	@FindBy(how = How.XPATH, using = "//*[@id=\"page-wrapper\"]/div[3]/div[1]/div/div/div[2]/form/button")
+	WebElement submitButton;	
+	
+
+	// Elements Actions	
+	public void enterAccountTitle(String AccountTitle) {
+		accountTitle.sendKeys(AccountTitle + randonIntGenertor(9999));
+	}
+	public void enterDescription(String description) {
+		accoutPageDescription.sendKeys(description);
+	}
+	public void enterInitalBalance(int initalBal) {
+		initalBalance.sendKeys(""+initalBal);
+	}
+	public void enterAccountNumber(int accountNum) {
+		account_number.sendKeys(""+accountNum);
+	}
+	public void enterContactPerson(String ContactPerson) {
+		account_number.sendKeys(ContactPerson);
+	}
+	public void enterContactPhone(int contactPhone) {
+		contact_phone.sendKeys(""+contactPhone);
+	}
+	public void enterURL(String URL) {
+		url.sendKeys(URL);
+	}
+	public void clickSubmitButton() {
+		submitButton.click();
+	}
+	
+	
+	
+}

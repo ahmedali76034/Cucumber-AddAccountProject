@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="Cucumber" tests="20" started="20" failures="0" errors="0" ignored="0">
+  <testsuite name="runners.Runner" time="44.216">
+    <testsuite name="Feature: TechFios billing login funtionality validation" time="44.216">
+      <testsuite name="Scenario: User should be aboe to login with valid credentials" time="1.929">
+        <testcase name="Given User is on the techfios login page" classname="Scenario: User should be aboe to login with valid credentials" time="0.154"/>
+        <testcase name="When User enters username as &quot;demo@techfios.com&quot;" classname="Scenario: User should be aboe to login with valid credentials" time="0.101"/>
+        <testcase name="When User enters password as &quot;abc123&quot;" classname="Scenario: User should be aboe to login with valid credentials" time="0.791"/>
+        <testcase name="And User clicks on signin button" classname="Scenario: User should be aboe to login with valid credentials" time="0.008"/>
+        <testcase name="Then User should land on Dashboard page" classname="Scenario: User should be aboe to login with valid credentials" time="0.875"/>
+      </testsuite>
+      <testsuite name="Scenario Outline: User should be aboe to login with valid credentials" time="40.277">
+        <testsuite name="Examples:" time="40.277">
+          <testsuite name="| demo2@techfios.com | abc123 |" time="1.342">
+            <testcase name="Given User is on the techfios login page" classname="| demo2@techfios.com | abc123 |" time="0.141"/>
+            <testcase name="When User enters username as &quot;demo2@techfios.com&quot;" classname="| demo2@techfios.com | abc123 |" time="0.095"/>
+            <testcase name="When User enters password as &quot;abc123&quot;" classname="| demo2@techfios.com | abc123 |" time="0.473"/>
+            <testcase name="And User clicks on signin button" classname="| demo2@techfios.com | abc123 |" time="0.008"/>
+            <testcase name="Then User should not land on Dashboard page" classname="| demo2@techfios.com | abc123 |" time="0.625"/>
+          </testsuite>
+          <testsuite name="| demo@techfios.com | abc124 |" time="17.618">
+            <testcase name="Given User is on the techfios login page" classname="| demo@techfios.com | abc124 |" time="0.168"/>
+            <testcase name="When User enters username as &quot;demo@techfios.com&quot;" classname="| demo@techfios.com | abc124 |" time="0.101"/>
+            <testcase name="When User enters password as &quot;abc124&quot;" classname="| demo@techfios.com | abc124 |" time="0.474"/>
+            <testcase name="And User clicks on signin button" classname="| demo@techfios.com | abc124 |" time="0.005"/>
+            <testcase name="Then User should not land on Dashboard page" classname="| demo@techfios.com | abc124 |" time="16.87"/>
+          </testsuite>
+          <testsuite name="|  |  |" time="17.527">
+            <testcase name="Given User is on the techfios login page" classname="|  |  |" time="0.1"/>
+            <testcase name="When User enters username as &quot;&quot;" classname="|  |  |" time="0.092"/>
+            <testcase name="When User enters password as &quot;&quot;" classname="|  |  |" time="0.487"/>
+            <testcase name="And User clicks on signin button" classname="|  |  |" time="0.008"/>
+            <testcase name="Then User should not land on Dashboard page" classname="|  |  |" time="16.84"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

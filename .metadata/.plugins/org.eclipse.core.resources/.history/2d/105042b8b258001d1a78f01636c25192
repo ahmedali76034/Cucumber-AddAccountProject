@@ -1,0 +1,21 @@
+Feature: Techfios bank and cash New Account Functionality 
+
+Scenario: User should be able to login with valid credentials and open a new account	
+	Given User is on the techfios login page 
+	When User enters username as "demo@techfios.com" 
+	When User enters password as "abc123"
+	And User clicks on signin Button
+	Then User should land on Dashboard page 
+	And User clicks on bank and cash
+	And User clicks on New Account
+	And User enters Account Title in accounts page as "Saving" 
+	And User enters accounts description as "This is my Account description" in accounts page 
+	And User enters account inital balance as "<initialBalance>" in accounts page 
+	And User enters account number as "<accountNumber>" in accounts page 
+	And User enters contact person as "<contactPerson>" in accounts page 
+	And User enters phone number as "<Phone>" in accounts page 
+	And User enters "<accountTitle>" in accounts page 
+	And User enters "<internetBankingURL>" in accounts page 
+  And User clicks on "<newAccount>"
+#	Then User should be able to validate account created successfully
+#	

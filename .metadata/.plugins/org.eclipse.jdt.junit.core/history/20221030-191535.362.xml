@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner (1)" project="NewAccount" tests="9" started="9" failures="0" errors="0" ignored="1">
+  <testsuite name="runners.Runner" time="1.848">
+    <testsuite name="Feature: Techfios bank and cash New Account Functionality" time="1.848">
+      <testsuite name="Scenario: User should be able to login with valid credentials and open a new account" time="1.848" incomplete="true">
+        <skipped/>
+        <testcase name="Given User is on the techfios login page" classname="Scenario: User should be able to login with valid credentials and open a new account" time="0.148"/>
+        <testcase name="When User enters username as &quot;demo@techfios.com&quot;" classname="Scenario: User should be able to login with valid credentials and open a new account" time="0.097"/>
+        <testcase name="When User enters password as &quot;abc123&quot;" classname="Scenario: User should be able to login with valid credentials and open a new account" time="0.883"/>
+        <testcase name="And User clicks on signin Button" classname="Scenario: User should be able to login with valid credentials and open a new account" time="0.009"/>
+        <testcase name="Then User should land on Dashboard page" classname="Scenario: User should be able to login with valid credentials and open a new account" time="0.06"/>
+        <testcase name="And User clicks on bank and cash" classname="Scenario: User should be able to login with valid credentials and open a new account" time="0.537"/>
+        <testcase name="And User clicks on New Account" classname="Scenario: User should be able to login with valid credentials and open a new account" time="0.112"/>
+        <testcase name="And User enters Account Title in accounts page as &quot;Saving&quot;" classname="Scenario: User should be able to login with valid credentials and open a new account" time="0.002"/>
+        <testcase name="And User enters &quot;&lt;description&gt;&quot; in accounts page" classname="Scenario: User should be able to login with valid credentials and open a new account" time="0.0" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

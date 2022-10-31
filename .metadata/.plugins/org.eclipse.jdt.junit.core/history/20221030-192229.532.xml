@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner (1)" project="NewAccount" tests="16" started="16" failures="0" errors="0" ignored="1">
+  <testsuite name="runners.Runner" time="2.571">
+    <testsuite name="Feature: Techfios bank and cash New Account Functionality" time="2.571">
+      <testsuite name="Scenario: User should be able to login with valid credentials and open a new account" time="2.571" incomplete="true">
+        <skipped/>
+        <testcase name="Given User is on the techfios login page" classname="Scenario: User should be able to login with valid credentials and open a new account" time="0.117"/>
+        <testcase name="When User enters username as &quot;demo@techfios.com&quot;" classname="Scenario: User should be able to login with valid credentials and open a new account" time="0.071"/>
+        <testcase name="When User enters password as &quot;abc123&quot;" classname="Scenario: User should be able to login with valid credentials and open a new account" time="0.87"/>
+        <testcase name="And User clicks on signin Button" classname="Scenario: User should be able to login with valid credentials and open a new account" time="0.008"/>
+        <testcase name="Then User should land on Dashboard page" classname="Scenario: User should be able to login with valid credentials and open a new account" time="0.068"/>
+        <testcase name="And User clicks on bank and cash" classname="Scenario: User should be able to login with valid credentials and open a new account" time="0.529"/>
+        <testcase name="And User clicks on New Account" classname="Scenario: User should be able to login with valid credentials and open a new account" time="0.098"/>
+        <testcase name="And User enters Account Title in accounts page as &quot;Saving&quot;" classname="Scenario: User should be able to login with valid credentials and open a new account" time="0.147"/>
+        <testcase name="And User enters &quot;This is my Account description&quot; in accounts page" classname="Scenario: User should be able to login with valid credentials and open a new account" time="0.086"/>
+        <testcase name="And User enters &quot;&lt;initialBalance&gt;&quot; in accounts page" classname="Scenario: User should be able to login with valid credentials and open a new account" time="0.067"/>
+        <testcase name="And User enters &quot;&lt;accountNumber&gt;&quot; in accounts page" classname="Scenario: User should be able to login with valid credentials and open a new account" time="0.146"/>
+        <testcase name="And User enters &quot;&lt;contactPerson&gt;&quot; in accounts page" classname="Scenario: User should be able to login with valid credentials and open a new account" time="0.121"/>
+        <testcase name="And User enters &quot;&lt;Phone&gt;&quot; in accounts page" classname="Scenario: User should be able to login with valid credentials and open a new account" time="0.11"/>
+        <testcase name="And User enters &quot;&lt;accountTitle&gt;&quot; in accounts page" classname="Scenario: User should be able to login with valid credentials and open a new account" time="0.129"/>
+        <testcase name="And User enters &quot;&lt;internetBankingURL&gt;&quot; in accounts page" classname="Scenario: User should be able to login with valid credentials and open a new account" time="0.004"/>
+        <testcase name="And User clicks on &quot;&lt;newAccount&gt;&quot;" classname="Scenario: User should be able to login with valid credentials and open a new account" time="0.0" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

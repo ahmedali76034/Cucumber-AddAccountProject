@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="Cucumber" tests="5" started="5" failures="0" errors="0" ignored="3">
+  <testsuite name="runners.Runner" time="0.008">
+    <testsuite name="Feature: TechFios billing login funtionality validation" time="0.008">
+      <testsuite name="Scenario: User should be aboe to login with valid credentials" time="0.008" incomplete="true">
+        <skipped/>
+        <testcase name="Given User is on the techfios login page" classname="Scenario: User should be aboe to login with valid credentials" time="0.004"/>
+        <testcase name="When User enters username as &quot;demo@techfios.com&quot;" classname="Scenario: User should be aboe to login with valid credentials" time="0.002"/>
+        <testcase name="When User enters password as &quot;abc123&quot;" classname="Scenario: User should be aboe to login with valid credentials" time="0.0" ignored="true"/>
+        <testcase name="And User clicks on signin button" classname="Scenario: User should be aboe to login with valid credentials" time="0.0" ignored="true"/>
+        <testcase name="Then User should land on Dashboard page" classname="Scenario: User should be aboe to login with valid credentials" time="0.001" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>
